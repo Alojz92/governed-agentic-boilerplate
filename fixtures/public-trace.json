@@ -1,0 +1,11 @@
+{
+  "demo": true,
+  "source": "SYNTHETIC_FIXTURE_NOT_LIVE_FACTORY_LOG",
+  "events": [
+    {"step": "webhook", "outcome": "VERIFIED_SIGNATURE", "detail": "synthetic signed push event"},
+    {"step": "event_validation", "outcome": "ADMITTED", "detail": "exact repository, main branch and commit SHA"},
+    {"step": "snapshot", "outcome": "MATCH", "detail": "mock GitHub revision equals admitted SHA"},
+    {"step": "execution", "outcome": "PASSED", "detail": "mock allowlisted git_status command"},
+    {"step": "human_authority", "outcome": "NO_MUTATION", "detail": "public demo does not commit, merge or deploy"}
+  ]
+}

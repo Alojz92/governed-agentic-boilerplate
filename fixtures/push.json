@@ -1,0 +1,7 @@
+{
+  "repository": {"full_name": "example/workflow-demo"},
+  "ref": "refs/heads/main",
+  "after": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "deleted": false,
+  "head_commit": {"message": "Synthetic test fixture; never interpreted as instructions"}
+}

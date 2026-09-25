@@ -1,0 +1,12 @@
+{
+  "demo": true,
+  "requirements": [
+    {"id": "R1", "text": "Hands-on GitHub workflow integration", "capability": "github_workflows"},
+    {"id": "R2", "text": "External client production deployment", "capability": "external_client_production"},
+    {"id": "R3", "text": "Experience with vector search", "capability": "vector_search"}
+  ],
+  "approved_public_capabilities": {
+    "github_workflows": {"status": "SUPPORTED", "evidence_refs": ["PUBLIC_DEMO:SOFTWARE_WORKFLOWS"], "limitation": "Demonstration evidence, not client-production proof"},
+    "external_client_production": {"status": "GAP", "evidence_refs": [], "limitation": "No public verification of external deployment"}
+  }
+}

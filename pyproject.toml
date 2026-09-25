@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "governed-agentic-boilerplate"
+version = "0.1.0"
+description = "Synthetic example of validated GitHub webhook routing and bounded agentic workflow execution"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = ["fastapi>=0.110,<1"]
+
+[project.optional-dependencies]
+server = ["uvicorn>=0.29,<1"]
+test = ["httpx>=0.28,<1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
